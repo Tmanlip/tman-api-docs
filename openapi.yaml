@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info:
+  title: Tengkuy's Personal API
+  version: 1.0.0
+  description: A tiny personal API, documented with Swagger UI.
+servers:
+  - url: https://YOUR-USERNAME.github.io/my-api-docs
+paths:
+  /data/about.json:
+    get:
+      summary: About me
+      responses:
+        "200":
+          description: Basic info
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  location:
+                    type: string
+                  interests:
+                    type: array
+                    items:
+                      type: string
