@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: A tiny personal API, documented with Swagger UI.
 servers:
-  - url: https://YOUR-USERNAME.github.io/my-api-docs
+  - url: https://tmanlip.github.io/tman-api-docs/
 paths:
   /data/about.json:
     get:
